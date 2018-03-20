@@ -1,5 +1,9 @@
+body{
+  background-color: lightgray;
+}
+
 #cat{
-  color: blue;
+  color: lightblue;
 }
 #dog{
   color: red;
@@ -8,4 +12,19 @@ img{
   display: none;
   max-width: 200px;
   max-height: 200px;
+  float: right;
+}
+
+#column1{
+  background-color: black;
+  color: white;
+  border-style: groove;
+  padding-bottom: 50px;
+
+}
+#column2{
+  background-color: black;
+  color: white;
+  border-style: groove;
+  padding-bottom: 50px;
 }
