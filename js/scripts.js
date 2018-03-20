@@ -3,10 +3,11 @@ $(document).ready(function(){
     $("ul#cat").prepend("<li>Meow!</li>");
     $("ul#dog").prepend("<li>grrrrr</li>");
     $("ul#cat").children("li").first().click(function(){
-      alert ("yo")
+      $(this).remove();
+      $("img#cat").toggle();
     });
     $("ul#dog").children("li").first().click(function(){
-      alert ("yo")
+      $(this).remove();
     });
   });
 
@@ -14,10 +15,11 @@ $(document).ready(function(){
     $("ul#dog").prepend("<li>woof!</li>");
     $("ul#cat").prepend("<li>HISS!</li>");
     $("ul#dog").children("li").first().click(function(){
-      alert ("yo")
+      $(this).remove();
+      $("img#dog").toggle();
     });
     $("ul#cat").children("li").first().click(function(){
-      alert ("yo")
+      $(this).remove();
     });
   });
 });

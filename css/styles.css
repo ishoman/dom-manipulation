@@ -1,0 +1,11 @@
+#cat{
+  color: blue;
+}
+#dog{
+  color: red;
+}
+img{
+  display: none;
+  max-width: 200px;
+  max-height: 200px;
+}
